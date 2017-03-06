@@ -1,8 +1,15 @@
-var mostarOcultar = function(divtexte) {
-	var divtext = document.getElementById(divtexte);
-	if (divtext.style.display == "block" ) {
-		divtext.style.display = "none";
-	} else{
-		divtext.style.display = "block";
-	}
+function verText() {
+  var mostrar = document.getElementById("text2").value;
+
+  if(mostrar.style.display == "block"){
+    return text1
+  }
+}
+
+function ocuText() {
+  var ocultar = document.getElementById("text1").value;
+}
+
+function enviar() {
+  
 }
