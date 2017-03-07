@@ -1,15 +1,11 @@
-function verText() {
-  var mostrar = document.getElementById("text2").value;
-
-  if(mostrar.style.display == "block"){
-    return text1
-  }
+function mostrar(div) {
+    ocultar();
+    var divWork = document.getElementById(div);
+    divWork.style.display='';
 }
 
-function ocuText() {
-  var ocultar = document.getElementById("text1").value;
-}
-
-function enviar() {
-  
+function ocultar(){
+     document.getElementById("text1").style.display='none';
+     document.getElementById("text2").style.display='none';
+     document.getElementById("text3").style.display='none';
 }
