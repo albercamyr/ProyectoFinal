@@ -6,78 +6,82 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Proyecto Final</title>
   <img src="assets/Image/logoLa2.jpg" alt="center">
-  <script src=""> </script>
+  <script src="assets/JS/main.js"> </script>
 </head>
 <body>
 <div>
-<p>
-<h3>¿Qué es Laboratoria?</h3>
-</p>
-Laboratoria es una Empresa Social que identifica, capacita y coloca a jóvenes mujeres de bajos <br>
-recursos por medio de clases de programación, a través de un programa intensivo de 4 a 6 meses.<br>
+      <p>
+      <h3>¿Qué es Laboratoria?</h3>
+      </p>
+      Laboratoria es una Empresa Social que identifica, capacita y coloca a jóvenes mujeres de bajos <br>
+      recursos por medio de clases de programación, a través de un programa intensivo de 4 a 6 meses.<br>
 </div>
-<h3>Temas</h3>
+
 <div>
-  <input type="button" value="Sprint 1" onclick="mostrar("text1")" >  </input>
-  <input type="button" value="Sprint 2" onclick="mostrar("text2")"> </input>
-  <input type="button" value="Sprint 3" onclick="mostrar("text3")"> </input>
-  <br/>
+      <h3>Temas</h3>
+      <input type="button" value="Sprint 1" onclick="mostrar('text1');">
+      <input type="button" value="Sprint 2" onclick="mostrar('text2');">
+      <input type="button" value="Sprint 3" onclick="mostrar('text3');">
+      <br/>
 </div>
 
-  <div id="text1">
-  <h4> Sprint 1: Introducción a JavaScript</h4>
-       1.Fundamentos de Programación <br>
-       2.Funciones <br>
-       3.Arreglos <br>
-       4.Objetos <br>
-  <hr>
-  <h3> Quiz Sprint 1 </h3>
-    <h4> Existen dos tipos de funciones</h4>
-    <input type="radio" name="primera" value="primera"> Expresadas y declaradas </input> <br>
-    <input type="radio" name="segunda" value="segunda"> Explicitas y declaradas </input> <br>
-    <input type="radio" name="tercera" value="tercera"> Expresadas y derivadas </input>
-    <h4> Elige una propiedad de los arreglos</h4>
-    <input type="radio" name="primera" value="primera"> clear </input> <br>
-    <input type="radio" name="segunda" value="segunda"> pop </input> <br>
-    <input type="radio" name="tercera" value="tercera"> add </input>
-    <h4> Un objeto tiene _______ y _______ </h4>
-    <input type="radio" name="primera" value="primera"> números y letras </input> <br>
-    <input type="radio" name="segunda" value="segunda"> partes y validaciones </input> <br>
-    <input type="radio" name="tercera" value="tercera"> propiedades y valores </input>
-    <p>
-  <input type="submit" valor="ENVIAR" onclick="function enviar()"> </input>
-    </p>
-      </div>
+<div id="text1" style='display:none;'>
+      <h4> Sprint 1: Introducción a JavaScript</h4>
+           1.Fundamentos de Programación <br>
+           2.Funciones <br>
+           3.Arreglos <br>
+           4.Objetos <br>
+      <hr>
+      <h3> Quiz Sprint 1 </h3>
+        <h4> Existen dos tipos de funciones</h4>
+        <input type="radio" name="primera" value="primera"> Expresadas y declaradas </input> <br>
+        <input type="radio" name="segunda" value="segunda"> Explicitas y declaradas </input> <br>
+        <input type="radio" name="tercera" value="tercera"> Expresadas y derivadas </input>
+        <h4> Elige una propiedad de los arreglos</h4>
+        <input type="radio" name="primera" value="primera"> clear </input> <br>
+        <input type="radio" name="segunda" value="segunda"> pop </input> <br>
+        <input type="radio" name="tercera" value="tercera"> add </input>
+        <h4> Un objeto tiene _______ y _______ </h4>
+        <input type="radio" name="primera" value="primera"> números y letras </input> <br>
+        <input type="radio" name="segunda" value="segunda"> partes y validaciones </input> <br>
+        <input type="radio" name="tercera" value="tercera"> propiedades y valores </input>
+        <p>
+      <input type="submit" valor="ENVIAR" onclick="function enviar()"> </input>
+        </p>
+</div>
 
 
-  <div id="text2">
-    <h4> Sprint 2: Introducción al desarrollo web y Construcción de páginas web</h4>
-       1.Ciclo de la vida del desarrollo web <br>
-       2.HTML y Javascript en el navegador <br>
-       3.Manejo de comandos básicos de Git en la terminal <br>
-       4.Pruebas Unitarias <br>
-       5.Git/Resolución de conflictos/Branching model <br>
-       6.DOM
-  <hr>
-  <h3> Quiz Sprint 2 </h3>
-    <h4> Existen dos tipos de funciones</h4>
-    <input type="radio" name="primera" value="primera"> Expresadas y declaradas </input> <br>
-    <input type="radio" name="segunda" value="segunda"> Explicitas y declaradas </input> <br>
-    <input type="radio" name="tercera" value="tercera"> Expresadas y derivadas </input>
-    <h4> Elige una propiedad de los arreglos</h4>
-    <input type="radio" name="primera" value="primera"> clear </input> <br>
-    <input type="radio" name="segunda" value="segunda"> pop </input> <br>
-    <input type="radio" name="tercera" value="tercera"> add </input>
-    <h4> Un objeto tiene _______ y _______ </h4>
-    <input type="radio" name="primera" value="primera"> números y letras </input> <br>
-    <input type="radio" name="segunda" value="segunda"> partes y validaciones </input> <br>
-    <input type="radio" name="tercera" value="tercera"> propiedades y valores </input>
-    <p>
-  <input type="submit" valor="ENVIAR"> </input>
-    </p>
-  </div>
-
-  <div id="text3"> No hay lección todavía </div>
+<div id="text2"  style='display:none;'>
+      <h4> Sprint 2: Introducción al desarrollo web y Construcción de páginas web</h4>
+         1.Ciclo de la vida del desarrollo web <br>
+         2.HTML y Javascript en el navegador <br>
+         3.Manejo de comandos básicos de Git en la terminal <br>
+         4.Pruebas Unitarias <br>
+         5.Git/Resolución de conflictos/Branching model <br>
+         6.DOM
+    <hr>
+    <h3> Quiz Sprint 2 </h3>
+      <h4> Existen dos tipos de funciones</h4>
+      <input type="radio" name="primera" value="primera"> Expresadas y declaradas </input> <br>
+      <input type="radio" name="segunda" value="segunda"> Explicitas y declaradas </input> <br>
+      <input type="radio" name="tercera" value="tercera"> Expresadas y derivadas </input>
+      <h4> Elige una propiedad de los arreglos</h4>
+      <input type="radio" name="primera" value="primera"> clear </input> <br>
+      <input type="radio" name="segunda" value="segunda"> pop </input> <br>
+      <input type="radio" name="tercera" value="tercera"> add </input>
+      <h4> Un objeto tiene _______ y _______ </h4>
+      <input type="radio" name="primera" value="primera"> números y letras </input> <br>
+      <input type="radio" name="segunda" value="segunda"> partes y validaciones </input> <br>
+      <input type="radio" name="tercera" value="tercera"> propiedades y valores </input>
+      <p>
+    <input type="submit" valor="ENVIAR"> </input>
+      </p>
+</div>
+<p>
+<div id="text3" style='display:none;'>
+     No hay lección todavía
+</p>
+</div>
 
 </body>
 </html>
